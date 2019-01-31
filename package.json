@@ -1,0 +1,13 @@
+{
+  "name": "elasticplayground",
+  "version": "1.0.0",
+  "description": "elasticsearch playground",
+  "main": "app.js",
+  "repository": "https://github.com/wechuli/elasticplayground.git",
+  "author": "wechuli <wechulipaul@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "elasticsearch": "^15.3.1",
+    "express": "^4.16.4"
+  }
+}
