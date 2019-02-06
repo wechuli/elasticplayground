@@ -1,0 +1,40 @@
+const data = {
+  _index: "movies",
+  _type: "all",
+  _id: "tt0106537",
+  _score: 0.0011043623,
+  _source: {
+    adult: "False",
+    belongs_to_collection: "",
+    budget: "0",
+    genres: [Array],
+    homepage: "",
+    id: "261246",
+    imdb_id: "tt0106537",
+    original_language: "en",
+    original_title: "Century",
+    overview:
+      "Turn-of-the-century love story centered around a young doctor and the emergence of modern science.",
+    popularity: "1.461029",
+    poster_path: "/c9Mn1aE7uSXNRGcBquXh5hw0aGo.jpg",
+    production_companies: [Array],
+    production_countries: [Array],
+    release_date: "1993-12-31",
+    revenue: 0,
+    runtime: 112,
+    spoken_languages: [Array],
+    status: "Released",
+    tagline: "",
+    title: "Century",
+    video: false,
+    vote_average: 5,
+    vote_count: 1,
+    poster:
+      "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM1ODYwNzI1OF5BMl5BanBnXkFtZTcwNjMxODcxMQ@@._V1_SX300.jpg",
+    categories: "Drama, Romance",
+    actors: "Charles Dance, Clive Owen, Miranda Richardson, Robert Stephens",
+    director: "Stephen Poliakoff",
+    language: "English",
+    production: "N/A"
+  }
+};
