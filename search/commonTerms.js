@@ -11,8 +11,9 @@ client
       query: {
         common: {
           body: {
-            query: "getting a brand",
-            cutoff_frequency: 0.001
+            query: "they thrive in",
+            // low_freq_operator:'or'
+            // cutoff_frequency: 0.001
           }
         }
       }
