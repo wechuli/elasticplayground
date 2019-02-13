@@ -166,8 +166,7 @@
        original_language: 'en',
        original_title: 'Switchblade Sisters',
        overview:
-        'A tough gang of teenage girls are looking for love and fighting for turf on the mean streets of the city! Bad girls to the core, these impossibly outrageous
-high school hoodlums go where they want ... and create mayhem wherever they go!',
+        'A tough gang of teenage girls are looking for love and fighting for turf on the mean streets of the city! Bad girls to the core, these impossibly outrageoushigh school hoodlums go where they want ... and create mayhem wherever they go!',
        popularity: '6.035166',
        poster_path: '/sEYeoOBXAllmHynCNrNBEJjratp.jpg',
        production_companies: [Array],
