@@ -6,12 +6,21 @@ client
     // index: "movies",
     type: "all",
     body: {
-      size: 0,
+      query: {
+        match_all: {}
+      },
+      size: 1,
       aggs: {
-        avg_grade: {
+        avg_temp: {
           avg: {
             // field: "vote_average"
             field: "temp"
+          }
+        },
+        avg_humid: {
+          avg: {
+            // field: "vote_average"
+            field: "humid"
           }
         }
       }
