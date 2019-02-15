@@ -2,25 +2,26 @@ const client = require("../connection/connection");
 
 client
   .search({
-    index: "manual",
-    // index: "movies",
+    // index: "manual",
+    index: "movies",
     type: "all",
+    size:0, //we just want the aggregations, we don't need any document back from the query
     body: {
       query: {
         match_all: {}
       },
       size: 1,
       aggs: {
-        avg_temp: {
+        avg_vote_average: {
           avg: {
-            // field: "vote_average"
-            field: "temp"
+            field: "vote_average"
+            // field: "temp"
           }
         },
-        avg_humid: {
+        avg_revenue: {
           avg: {
-            // field: "vote_average"
-            field: "humid"
+            field: "revenue"
+            // field: "humid"
           }
         }
       }
