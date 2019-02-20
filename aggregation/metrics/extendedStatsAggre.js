@@ -1,4 +1,4 @@
-const client = require("../connection/connection");
+const client = require("../../connection/connection");
 /* A multi-value metrics aggregation that computes stats over numeric values extracted from aggregated documents */
 client
   .search({

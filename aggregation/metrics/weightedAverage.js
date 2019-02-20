@@ -1,4 +1,4 @@
-const client = require("../connection/connection");
+const client = require("../../connection/connection");
 /*weighted average is a single-value metrics aggregation that computes the weighted average of numeric values
 that are extracted from the aggregated documents*/
 client

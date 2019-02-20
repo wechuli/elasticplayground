@@ -1,4 +1,4 @@
-const client = require("../connection/connection");
+const client = require("../../connection/connection");
 
 client
   .search({

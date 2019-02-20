@@ -1,5 +1,5 @@
 //A single-value metrics aggregation that keeps track and returns the minimum value among the numeric values extracted
-const client = require("../connection/connection");
+const client = require("../../connection/connection");
 
 client
   .search({

@@ -1,4 +1,4 @@
-const client = require("../connection/connection");
+const client = require("../../connection/connection");
 /** A multi-value metrics aggregation that calculates one or more percentile ranks over numeric values extracted from aggregated documents Percentile rank shows the percentage of observed values which are below certain value */
 client
   .search({

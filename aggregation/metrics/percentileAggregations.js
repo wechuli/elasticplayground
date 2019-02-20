@@ -1,4 +1,4 @@
-const client = require("../connection/connection");
+const client = require("../../connection/connection");
 // A multi-value metrics aggregation that calculates one or more percentiles over numeric values extracted from aggregated documents.
 //Percentiles show the point at which a certain percentage of observed values occur.Percentiles are often used to find outliers
 //When a range of percentiles are retrieved, they can be used to estimate the data distribution and determine if the data is skewed, bimodal etc
