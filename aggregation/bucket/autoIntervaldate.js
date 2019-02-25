@@ -13,7 +13,8 @@ client
         movies_over_time: {
           auto_date_histogram: {
             field: "release_date",
-            buckets: 20
+            buckets: 20,
+            format: "yyyy-MM-dd"
           }
         }
       }
