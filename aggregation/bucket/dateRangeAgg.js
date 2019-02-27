@@ -21,7 +21,7 @@ client
     }
   })
   .then(response => {
-      console.log(response);
-      console.log(response.aggregations.range)
-    })
+    console.log(response);
+    console.log(response.aggregations.range);
+  })
   .catch(error => console.log(error));
