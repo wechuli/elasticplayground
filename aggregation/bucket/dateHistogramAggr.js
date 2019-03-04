@@ -15,7 +15,7 @@ client
             interval: "year",
             format:'yyyy-MM-dd'
           },
-          aggs: { //This is so cool, we can next a metric aggregation inside of the bucket aggregations and elastic returns the metrics for that bucket, awesome.
+          aggs: { //This is so cool, we can nest a metric aggregation inside of the bucket aggregations and elastic returns the metrics for that bucket, awesome.
             analytics: {
               stats: {
                 field: "budget"

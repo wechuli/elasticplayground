@@ -9,7 +9,8 @@ client
       aggs: {
         language: {
           terms: {
-            field: "genres"
+            field: "language",
+            
           }
         }
       }

@@ -1,5 +1,6 @@
 const client = require("../../connection/connection");
 /*Defines a single bucket of all the documents in the current document set context that match a specified filter. Often this will be used to narrow down the current aggregation context to a specific set of documents. */
+// This aggregation will not work on text - but will work with keywords
 client
   .search({
     index: "movies",
@@ -10,7 +11,7 @@ client
         adult_movies: {
           filter: {
             term: {
-              director: "Jack Hill"
+              video: true
             }
           }
         }
