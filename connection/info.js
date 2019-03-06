@@ -8,7 +8,7 @@ client.indices
     // type: "all"
   })
   //   .then(response => console.log(response.iotdata.mappings.all.properties.payload_fields.properties))
-  .then(response => console.log(response.movies.mappings.all.properties))
+  .then(response => console.log(response.movies.mappings.all.properties.genres))
   .catch(err => console.log(err));
 
 client
